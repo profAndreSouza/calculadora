@@ -22,12 +22,17 @@ body {
     background-color: #fff;
     color: #333;
     box-shadow: 0px 2px 5px rgba(255, 0, 0, 0.1);
+    text-align: right;
 }
 
 .buttons {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 5px;
+}
+
+.buttons span {
+    color: #fff;
 }
 
 button {
